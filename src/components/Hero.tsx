@@ -22,7 +22,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gray-900"> {/* Added a solid background */}
+    <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gray-900">
       {/* Content */}
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="max-w-5xl mx-auto">
@@ -97,7 +97,6 @@ const Hero = () => {
           </button>
         </div>
       </div>
-      {/* The entire scroll indicator div has been removed */}
     </section>
   );
 };
