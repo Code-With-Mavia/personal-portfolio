@@ -84,7 +84,7 @@ const Contact = () => {
     },
     {
       name: "GitHub",
-      url: "#",
+      url: "https://github.com/Code-With-Mavia",
       icon: <Github className="w-6 h-6" />,
       color: "text-gray-400",
       hoverColor: "hover:text-gray-300",
