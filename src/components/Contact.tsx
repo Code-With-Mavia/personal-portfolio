@@ -311,7 +311,7 @@ const Contact = () => {
           <div className="mt-20 pt-8 border-t border-gray-700/50 text-center">
             <div className="bg-gray-800/30 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50">
               <p className="text-gray-400 mb-2">
-                <span className="text-cyan-400 font-mono">~/portfolio/footer.txt</span>
+                <span className="text-cyan-400 font-mono"></span>
               </p>
               <p className="text-gray-300">
                 Built with 💻 by <span className="text-cyan-400 font-semibold">Maawiah Qaiser</span> • © 2024 • 
