@@ -37,7 +37,7 @@ const Hero = () => {
             </div>
           </h1>
 
-          <h2 className="text-3xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500 mb-2">
+          <h2 className="text-3xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500 mb-4"> {/* Increased mb to create space for the element below */}
             Backend Engineer | Python & Django
           </h2>
 
