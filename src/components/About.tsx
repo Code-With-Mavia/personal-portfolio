@@ -1,3 +1,4 @@
+import React from 'react';
 import { Brain, Code, Database, Server, Zap, Target } from 'lucide-react';
 
 const About = () => {
@@ -5,25 +6,33 @@ const About = () => {
     {
       icon: <Brain className="w-8 h-8" />,
       title: "Backend Development",
-      description: "Specializing in Django and FastAPI for scalable backend systems with clean modular code.",
+      description: "Building robust backend systems with **Django** and actively exploring **FastAPI** for modern, scalable API development.",
+      level: "Beginner",
+      progress: "40%", // Adjusted for a more confident Beginner
       color: "cyan"
     },
     {
       icon: <Code className="w-8 h-8" />,
       title: "Python Programming",
-      description: "Writing efficient backend logic and automation scripts using Python and C++.",
+      description: "Developing efficient backend logic and automation scripts using **Python**; expanding into **C++** fundamentals for performance-critical applications.",
+      level: "Intermediate",
+      progress: "70%", // Adjusted for a strong Intermediate
       color: "purple"
     },
     {
       icon: <Database className="w-8 h-8" />,
       title: "Database Management",
-      description: "Designing PostgreSQL schemas and integrating real-time data with Firebase.",
+      description: "Designing and optimizing **PostgreSQL** schemas; integrating real-time data solutions with **Firebase** for dynamic applications.",
+      level: "Beginner",
+      progress: "45%", // Adjusted for a confident Beginner
       color: "green"
     },
     {
       icon: <Server className="w-8 h-8" />,
       title: "System Architecture",
-      description: "Focusing on maintainable and secure backend architectures for production-grade systems.",
+      description: "Focusing on designing maintainable and secure backend architectures for scalable, production-grade systems.",
+      level: "Beginner",
+      progress: "35%", // Adjusted for a confident Beginner
       color: "yellow"
     }
   ];
@@ -98,8 +107,8 @@ const About = () => {
                     <div><span className="text-green-400">name</span> = <span className="text-orange-400">"Maawiah Qaiser"</span></div>
                     <div><span className="text-green-400">location</span> = <span className="text-orange-400">"Lahore, Pakistan"</span></div>
                     <div><span className="text-green-400">status</span> = <span className="text-orange-400">"CS Student, Final Year"</span></div>
-                    <div><span className="text-green-400">skills</span> = <span className="text-orange-400">["Python", "Django", "Firebase", "PostgreSQL"]</span></div>
-                    <div><span className="text-green-400">goal</span> = <span className="text-orange-400">"Become a Backend Engineer"</span></div>
+                    <div><span className="text-green-400">skills_focused</span> = <span className="text-orange-400">["Python", "Django", "FastAPI", "PostgreSQL", "Firebase", "System Design"]</span></div>
+                    <div><span className="text-green-400">current_phase</span> = <span className="text-orange-400">"Growth & Development"</span></div>
                   </div>
                 </div>
               </div>
@@ -111,21 +120,21 @@ const About = () => {
                   <h3 className="text-2xl font-bold text-purple-400">MISSION</h3>
                 </div>
                 <p className="text-gray-300 leading-relaxed mb-2">
-                  Build scalable and efficient backend solutions using Python and Django while mastering system architecture and real-time database integration.
+                  To build scalable and efficient backend solutions using **Python** and **Django**, while continuously mastering system architecture and real-time database integration.
                 </p>
                 <p className="text-gray-300 leading-relaxed">
-                  I'm passionate about turning backend logic into clean, production-ready code that solves real-world problems.
+                  I am passionate about translating complex backend logic into clean, production-ready code that solves tangible, real-world problems.
                 </p>
               </div>
 
-              {/* Focus */}
+              {/* Current Focus */}
               <div className="bg-gray-800/30 backdrop-blur-sm rounded-2xl p-8 border border-green-400/30 hover:border-green-400/60 transition-all duration-300 group">
                 <div className="flex items-center gap-3 mb-4">
                   <Zap className="w-8 h-8 text-green-400 group-hover:scale-110 transition-transform duration-300" />
                   <h3 className="text-2xl font-bold text-green-400">CURRENT FOCUS</h3>
                 </div>
                 <p className="text-gray-300 leading-relaxed">
-                  Backend systems development using Django, PostgreSQL, and Firebase. Exploring real-time web apps, RESTful API design, and scalable server-side logic.
+                  Focused on backend systems development, leveraging **Django**, **PostgreSQL**, and **Firebase**. I am actively refining my skills in crafting real-time web applications, designing robust **RESTful API**s, and implementing highly scalable server-side logic.
                 </p>
               </div>
             </div>
@@ -141,14 +150,14 @@ const About = () => {
                         {skill.icon}
                       </div>
                       <h4 className="text-lg font-semibold text-white mb-2">{skill.title}</h4>
-                      <p className="text-gray-400 text-sm">{skill.description}</p>
-                      <div className="mt-4">
+                      <p className="text-gray-400 text-sm mb-4">{skill.description}</p>
+                      <div className="mt-auto">
                         <div className="flex justify-between text-xs text-gray-500">
                           <span>Proficiency</span>
-                          <span className={`${colorClasses.text}`}>Advanced</span>
+                          <span className={`${colorClasses.text}`}>{skill.level}</span>
                         </div>
                         <div className="w-full bg-gray-700 rounded-full h-1 mt-1">
-                          <div className={`h-1 rounded-full bg-gradient-to-r ${colorClasses.text.replace('text-', 'from-')} to-transparent`} style={{ width: '85%' }}></div>
+                          <div className={`h-1 rounded-full bg-gradient-to-r ${colorClasses.text.replace('text-', 'from-')} to-transparent`} style={{ width: skill.progress }}></div>
                         </div>
                       </div>
                     </div>
@@ -162,9 +171,9 @@ const About = () => {
                 <div className="grid grid-cols-2 gap-4">
                   {[
                     { label: "Projects Built", value: "3+", color: "cyan" },
-                    { label: "Years Learning", value: "3+", color: "purple" },
-                    { label: "Tech Stack", value: "8+", color: "green" },
-                    { label: "Passion Level", value: "∞", color: "yellow" }
+                    { label: "Years in CS", value: "3+", color: "purple" },
+                    { label: "Key Tech Stacks", value: "8+", color: "green" },
+                    { label: "Problem Solving Drive", value: "∞", color: "yellow" }
                   ].map((stat, index) => {
                     const colorClasses = getColorClasses(stat.color);
                     return (
@@ -206,7 +215,6 @@ const About = () => {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
