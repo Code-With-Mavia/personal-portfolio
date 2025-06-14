@@ -6,7 +6,7 @@ A futuristic, scroll-based portfolio built using **React + Vite + TypeScript** a
 
 ## 🌐 Live Demo
 
-> Vercel https://personal-portfolio-ruby-nine.vercel.app/
+> Vercel https://personal-portfolio-alpha-navy-59.vercel.app/
 
 ---
 
