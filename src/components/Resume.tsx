@@ -97,6 +97,13 @@ const Resume = () => {
       url: "https://www.coursera.org/account/accomplishments/verify/PE8I2IB6AS0B",   
       image: "/imgs_crf/Python C-2-1.png", 
       date: "2024" 
+    },
+    {
+      name: "Python Data Structures",
+      provider: "Coursera",
+      url: "https://www.coursera.org/account/accomplishments/verify/PE8I2IB6AS0B",   
+      image: "/imgs_crf/Python C-2-1.png", 
+      date: "2024" 
     }
   ];
 
