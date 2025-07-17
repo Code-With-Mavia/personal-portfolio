@@ -102,7 +102,7 @@ const Resume = () => {
       name: "Learn Firebase",
       provider: "Coursera",
       url: "",   
-      image: "", 
+      image: "/imgs_crf/", 
       date: "2025" 
     }
   ];
