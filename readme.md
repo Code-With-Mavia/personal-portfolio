@@ -112,11 +112,4 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 Developed by [Maawiah Qaiser](https://github.com/Code-With-Mavia)
 🎓 CS Undergraduate • 🧠 Aspiring Backend Engineer • 💻 Passionate about building intelligent systems
 
----
-
-```
-
----
-
-Let me know when you’ve deployed it — I’ll help you polish the domain and meta tags too for a sleek shareable preview.
 ```
