@@ -26,7 +26,7 @@ const Resume = () => {
     {
       title: "Dispatcher",
       company: "AMPAK Dispatch Services",
-      period: "February 2024 – July 2025",
+      period: "February 2024 – July 2024",
       type: "Professional Experience",
       description: "Coordinated dispatch operations and optimized logistics workflows.",
       achievements: [
