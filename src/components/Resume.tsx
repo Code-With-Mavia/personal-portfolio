@@ -69,10 +69,21 @@ const Resume = () => {
   ];
 
   const skills = {
-    "Programming Languages": ["Python", "C++", "SQL"],
-    "Frameworks": ["Django"],
-    "Tools & Technologies": ["Visual Studio Code", "PostgreSQL", "GitHub", "Firebase"],
-    "Core Competencies": ["Database Management", "Backend Development", "Problem Solving", "API Integration"]
+    "Programming Languages": ["🐍 Python", "💻 C++", "🛢 SQL"],
+    "Frameworks": ["🌐 Django"],
+    "Tools & Technologies": ["🖥️ Visual Studio Code", "🐘 PostgreSQL", "🐙 GitHub", "🔥 Firebase"],
+    "Core Competencies": [
+      "🗄️ Database Management", 
+      "🧠 Backend Development", 
+      "🧩 Problem Solving", 
+      "🔌 API Integration",
+      "☁️ Cloud Applications", 
+      "🔐 Application Security",
+      "⚡ Serverless Computing",
+      "📡 Real-Time Data",
+      "👥 User Authentication",
+      "🗃️ NoSQL"
+    ]
   };
 
   const certifications = [
