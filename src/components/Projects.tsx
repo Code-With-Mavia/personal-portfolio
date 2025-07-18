@@ -7,7 +7,7 @@ const importImages = async (
 ): Promise<string[]> => {
   const imagePromises = Object.values(modules).map(async (importer) => {
     const img = await importer();
-    return img.default; // ✅ Use the actual imported path
+    return img.default;
   });
   return Promise.all(imagePromises);
 };
@@ -70,7 +70,7 @@ const voice = await importImages(
       subtitle: "Centralized Patient Management System",
       description: "A comprehensive hospital management system with AI-powered EHR summarization and multi-role authentication for healthcare professionals.",
       longDescription: "EvoHealth revolutionizes healthcare management by combining traditional patient management with cutting-edge AI capabilities.",
-      techStack: ["Django", "Firebase", "FastAPI", "Python", "PostgreSQL", "AI/ML"],
+      techStack: ["Django", "Firebase", "FastAPI", "Python", "AI/ML"],
       features: [
         "Multi-role authentication system",
         "AI-powered EHR summarization",
