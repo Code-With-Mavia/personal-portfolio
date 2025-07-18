@@ -56,7 +56,7 @@ const Contact = () => {
       icon: <MapPin className="w-6 h-6" />,
       title: "Location",
       content: "Lahore, Pakistan",
-      description: "Available for remote work",
+      description: "Available for work ",
       color: "text-purple-400",
       bgColor: "bg-purple-400/10",
       borderColor: "border-purple-400/30"
