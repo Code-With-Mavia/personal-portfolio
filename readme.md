@@ -105,11 +105,7 @@ npm run preview
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
----
-
 ## 🙌 Author
 
 Developed by [Maawiah Qaiser](https://github.com/Code-With-Mavia)
 🎓 CS Undergraduate • 🧠 Aspiring Backend Engineer • 💻 Passionate about building intelligent systems
-
-```
