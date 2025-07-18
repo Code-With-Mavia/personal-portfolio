@@ -33,14 +33,14 @@ const TechStack = () => {
         {
           name: "C++",
           level: "Beginner",
-          icon: "🔧",
+          icon: "💠",
           description: "Learned through university coursework and DSA problems.",
           experience: "6+ months"
         },
         {
           name: "SQL",
           level: "Intermediate",
-          icon: "🗃️",
+          icon: "🗄️",
           description: "Used for querying and managing relational databases in backend apps.",
           experience: "1+ year"
         }
@@ -55,7 +55,7 @@ const TechStack = () => {
           name: "Django",
           level: "Intermediate",
           icon: "🌐",
-          description: "Built projects like e-commerce and medical apps using Django backend.",
+          description: "Built backend projects using Django, focusing on APIs and data models.",
           experience: "6+ months"
         }
       ]
@@ -68,29 +68,36 @@ const TechStack = () => {
         {
           name: "Visual Studio Code",
           level: "Intermediate",
-          icon: "💻",
-          description: "My daily code editor with extensions for Django and Python.",
+          icon: "📝",
+          description: "My daily editor for all coding tasks, especially Python and web projects.",
           experience: "1+ year"
         },
         {
           name: "PostgreSQL",
           level: "Intermediate",
           icon: "🐘",
-          description: "Used as the main database in Django projects.",
+          description: "Used as the main relational DB in Django-based applications.",
           experience: "1+ year"
         },
         {
           name: "Firebase",
           level: "Intermediate",
           icon: "🔥",
-          description: "Handled authentication and real-time data in student projects.",
+          description: "Used for authentication, real-time data, NoSQL storage, and serverless functions.",
           experience: "1+ year"
+        },
+        {
+          name: "Firebase Firestore",
+          level: "Intermediate",
+          icon: "📂",
+          description: "Handled structured NoSQL data in cloud-based apps using Firestore.",
+          experience: "6+ months"
         },
         {
           name: "GitHub",
           level: "Intermediate",
-          icon: "🔧",
-          description: "Version control and portfolio hosting platform for all my code.",
+          icon: "🐱",
+          description: "Version control, portfolio hosting, and open-source collaboration.",
           experience: "1+ year"
         }
       ]
@@ -103,30 +110,65 @@ const TechStack = () => {
         {
           name: "Backend Development",
           level: "Intermediate",
-          icon: "⚙️",
-          description: "Focused on logic, APIs, and data models for web applications.",
+          icon: "🧰",
+          description: "Focused on server logic, API endpoints, and scalable data flows.",
+          experience: "6+ months"
+        },
+        {
+          name: "API Integration",
+          level: "Intermediate",
+          icon: "🔌",
+          description: "Connected third-party APIs and handled JSON in backend systems.",
           experience: "6+ months"
         },
         {
           name: "Database Management",
           level: "Intermediate",
-          icon: "🧩",
-          description: "Designed schemas and optimized queries in SQL-based apps.",
+          icon: "🧮",
+          description: "Designed schemas, optimized queries, and managed relational & NoSQL DBs.",
           experience: "1+ year"
+        },
+        {
+          name: "Real-Time Data",
+          level: "Intermediate",
+          icon: "⏱️",
+          description: "Used Firebase to sync real-time updates across users instantly.",
+          experience: "6+ months"
+        },
+        {
+          name: "Serverless Computing",
+          level: "Beginner",
+          icon: "⚡",
+          description: "Used Firebase Functions to run backend code without managing servers.",
+          experience: "6+ months"
+        },
+        {
+          name: "Cloud Applications",
+          level: "Beginner",
+          icon: "☁️",
+          description: "Built scalable cloud-hosted apps with real-time and auth features.",
+          experience: "6+ months"
+        },
+        {
+          name: "Application Security",
+          level: "Beginner",
+          icon: "🛡️",
+          description: "Handled secure auth, DB rules, and validations in cloud-based apps.",
+          experience: "6+ months"
+        },
+        {
+          name: "User Authentication",
+          level: "Intermediate",
+          icon: "🔐",
+          description: "Implemented login/signup systems using Firebase Auth and role access.",
+          experience: "6+ months"
         },
         {
           name: "Problem Solving",
           level: "Intermediate",
           icon: "🧠",
-          description: "Strengthened through coding problems and building full-stack features.",
+          description: "Practiced through coding challenges and backend system designs.",
           experience: "1+ year"
-        },
-        {
-          name: "API Integration",
-          level: "Intermediate",
-          icon: "🔗",
-          description: "Connected third-party APIs and handled JSON responses in Django.",
-          experience: "6+ months"
         }
       ]
     }
