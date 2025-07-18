@@ -33,20 +33,20 @@ A futuristic, scroll-based portfolio built using **React + Vite + TypeScript** a
 ## 🛠️ Local Setup
 
 1. **Clone the Repository**
-   ```bash
+   ```
    git clone https://github.com/Code-With-Mavia/personal-portfolio.git
    cd personal-portfolio
-````
-
+```
+```
 2. **Install Dependencies**
 
-   ```bash
+   ```
    npm install
    ```
 
 3. **Run Development Server**
 
-   ```bash
+   ```
    npm run dev
    ```
 
@@ -58,13 +58,13 @@ A futuristic, scroll-based portfolio built using **React + Vite + TypeScript** a
 
 To build for production:
 
-```bash
+```
 npm run build
 ```
 
 To preview the built site locally:
 
-```bash
+```
 npm run preview
 ```
 
