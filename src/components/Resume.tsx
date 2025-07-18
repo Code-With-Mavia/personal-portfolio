@@ -6,7 +6,7 @@ const Resume = () => {
 
   const downloadResume = () => {
     // Corrected filename: Maawiah_Qaiser.pdf (with underscore)
-    const resumePdfUrl = "/resume/Maawiah Qaiser.pdf"; 
+    const resumePdfUrl = "/Resume/Maawiah Qaiser.pdf"; 
     
     // If the file is not at the correct public path, the browser will show a 'file not found' error.
     window.open(resumePdfUrl, '_blank');
